@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Medicine name"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/batchInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Batch"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/companyInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Company (optional)"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/expiryInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Expiry (yyyy-MM-dd)"
+        android:inputType="date" />
+    <EditText
+        android:id="@+id/mrpInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MRP in ₹ (e.g. 45.50)"
+        android:inputType="numberDecimal" />
+    <EditText
+        android:id="@+id/gstInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="GST % (e.g. 12)"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/stockInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stock quantity"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/thresholdInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Low-stock threshold"
+        android:inputType="number" />
+</LinearLayout>

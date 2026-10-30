@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New bill"
+        android:textSize="22sp" android:textStyle="bold" />
+    <EditText
+        android:id="@+id/customerInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/customer_hint"
+        android:inputType="textPersonName" />
+    <Button
+        android:id="@+id/pickButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/pick_medicine" />
+    <TextView
+        android:id="@+id/emptyCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/empty_cart"
+        android:textSize="16sp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cartList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Subtotal"
+        android:textSize="14sp" android:textStyle="bold" />
+    <TextView
+        android:id="@+id/subtotalValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="₹0.00"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Taxable value (GST-exclusive)"
+        android:textSize="14sp" android:textStyle="bold" />
+    <TextView
+        android:id="@+id/taxableValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="₹0.00"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="CGST"
+        android:textSize="14sp" android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cgstValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="₹0.00"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="SGST"
+        android:textSize="14sp" android:textStyle="bold" />
+    <TextView
+        android:id="@+id/sgstValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="₹0.00"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Total"
+        android:textSize="14sp" android:textStyle="bold" />
+    <TextView
+        android:id="@+id/totalValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="₹0.00"
+        android:textSize="20sp" android:textStyle="bold" />
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:enabled="false"
+        android:text="@string/save_bill" />
+</LinearLayout>
+</ScrollView>

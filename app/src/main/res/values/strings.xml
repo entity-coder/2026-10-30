@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">PharmaBill</string>
+    <string name="medicine_detail_title">Medicine details</string>
+    <string name="bill_detail_title">Bill details</string>
+    <string name="settings_title">Shop settings</string>
+
+    <!-- Tabs -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_medicines">Medicines</string>
+    <string name="nav_billing">Billing</string>
+    <string name="nav_reports">Reports</string>
+
+    <!-- Shared -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="done">Done</string>
+    <string name="remove">Remove</string>
+    <string name="record">Record</string>
+    <string name="settings">Shop settings</string>
+
+    <!-- Medicines -->
+    <string name="add_medicine">Add medicine</string>
+    <string name="edit_medicine">Edit medicine</string>
+    <string name="search_medicine_hint">Search by name or batch</string>
+    <string name="medicine_invalid">Enter a name, a batch, an expiry date as yyyy-MM-dd, an MRP above zero, and non-negative GST, stock, and threshold.</string>
+    <string name="medicine_not_found">That medicine no longer exists.</string>
+    <string name="medicine_deactivated">Medicine deactivated — it no longer appears in the catalog or billing.</string>
+    <string name="medicine_deactivated_note">This batch is deactivated: it stays on old bills but no longer appears in the catalog or billing picker.</string>
+    <string name="delete_medicine">Delete medicine</string>
+    <string name="delete_medicine_message">The batch will be deleted permanently. This is only offered when it has never appeared on a bill.</string>
+    <string name="cannot_delete_medicine">Cannot delete this batch</string>
+    <string name="cannot_delete_medicine_message">This batch appears on %1$d bill line(s), so deleting it would break those invoices. Deactivate it instead — it stays on old bills but disappears from the catalog and billing.</string>
+    <string name="deactivate">Deactivate</string>
+
+    <!-- Stock -->
+    <string name="stock_in">Stock in</string>
+    <string name="stock_out">Stock out</string>
+    <string name="stock_adjust_invalid">Enter a quantity above zero and a reason.</string>
+    <string name="stock_out_exceeds">Cannot take out more than the current stock.</string>
+
+    <!-- Billing -->
+    <string name="pick_medicine">Add medicine</string>
+    <string name="customer_hint">Customer name (optional)</string>
+    <string name="empty_cart">No items yet — tap "Add medicine" to start a bill.</string>
+    <string name="save_bill">Save bill</string>
+    <string name="pick_over_stock">That batch is already at its available stock in this bill.</string>
+    <string name="oversell">%1$s no longer has enough stock for this bill. Adjust the quantity and try again.</string>
+    <string name="bill_saved">Bill %1$s saved</string>
+
+    <!-- Bills / reports -->
+    <string name="bill_not_found">That bill no longer exists.</string>
+    <string name="print_invoice">Print invoice</string>
+    <string name="share_invoice">Share invoice</string>
+    <string name="invoice_failed">Could not create the invoice PDF.</string>
+    <string name="show_report">Show</string>
+    <string name="no_bills">No bills on this date.</string>
+
+    <!-- Settings -->
+    <string name="shop_name_empty">Enter a shop name first.</string>
+    <string name="settings_saved">Shop name saved — it will appear on new invoices.</string>
+</resources>
